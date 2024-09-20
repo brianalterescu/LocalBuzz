@@ -2,6 +2,7 @@ Brian Alterescu | Matthew Rockwood | Haris Akbar | Victoria Del Giorno | Corinne
 
 **Project Proposal**
 
+![localbuzz-high-resolution-logo](https://github.com/user-attachments/assets/02a5788d-5e1e-41a5-a8b7-20a6f9fc4a72)
 
 
 **Problem Statement**
