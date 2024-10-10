@@ -1,0 +1,166 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Container */
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+
+/* Logo Section - 65% of the screen */
+.logo-section {
+    flex: 0 0 65%;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 60%;
+    height: auto;
+}
+
+.app-name {
+    font-size: 4vw;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 2vw;
+    color: #00cc99;
+    margin-top: 10px;
+}
+
+/* Login Section - 35% of the screen */
+.login-section {
+    flex: 0 0 35%;
+    padding: 40px 30px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .login-section h2 {
+        font-size: 2.5vw;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+    .input-group label {
+        font-size: 1.2vw;
+        color: #333;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .input-group input {
+        padding: 1.2vw;
+        font-size: 1.2vw;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+        width: 100%;
+    }
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .options input {
+        margin-right: 10px;
+    }
+
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+    .forgot-password:hover {
+        text-decoration: underline;
+    }
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 1.5vw;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-google {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 1.5vw;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1vw;
+    color: #333;
+}
+
+    .signup-text a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .signup-text a:hover {
+            text-decoration: underline;
+        }

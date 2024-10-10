@@ -1,0 +1,6 @@
+com\localbuzz\controller\AuthController.class
+com\localbuzz\service\UserService.class
+com\localbuzz\project\ProjectApplication.class
+com\localbuzz\repository\UserRepository.class
+com\localbuzz\model\User.class
+com\localbuzz\LocalBuzzApplication.class

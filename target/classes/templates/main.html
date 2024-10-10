@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalBuzz</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-links ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .search-container {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .search-container input {
+                padding: 10px;
+                font-size: 16px;
+                width: 300px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+
+        .search-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            background-color: #00cc99;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-color: #eee;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .hero-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn-primary {
+            background-color: #00cc99;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Business Section */
+        .businesses-section {
+            padding: 40px 0;
+        }
+
+            .businesses-section h3 {
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+        .business-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .business-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .business-card h4 {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+
+            .business-card p {
+                font-size: 14px;
+                color: #666;
+            }
+
+        /* Reviews Section */
+        .reviews-section {
+            background-color: #f9f9f9;
+            padding: 40px 0;
+        }
+
+            .reviews-section h3 {
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .review-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .review-card blockquote {
+                font-size: 16px;
+                margin-bottom: 10px;
+                font-style: italic;
+            }
+
+            .review-card p {
+                font-size: 14px;
+                color: #666;
+            }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <button class="menu-btn">☰</button>
+                <h1 class="app-name">LocalBuzz</h1>
+            </div>
+            <nav class="navbar-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Business Solutions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search Local Business Offers">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Connect, Discover, Engage</h2>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Download The App</button>
+                    <button class="btn-primary">Sign Up Your Business</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="businesses-section">
+            <h3>Connected Businesses</h3>
+            <div class="business-grid">
+                <div class="business-card">
+                    <h4>Tony's Pizza</h4>
+                    <p>Body text for whatever you'd like to say.</p>
+                </div>
+                <div class="business-card">
+                    <h4>James Joyce</h4>
+                    <p>Body text for whatever you'd like to say.</p>
+                </div>
+                <div class="business-card">
+                    <h4>The Meatball Place</h4>
+                    <p>Body text for whatever you'd like to say.</p>
+                </div>
+                <div class="business-card">
+                    <h4>Legends Bar & Grill</h4>
+                    <p>Body text for whatever you'd like to say.</p>
+                </div>
+                <div class="business-card">
+                    <h4>Toku</h4>
+                    <p>Body text for whatever you'd like to say.</p>
+                </div>
+                <div class="business-card">
+                    <h4>El Cafe</h4>
+                    <p>Body text for whatever you'd like to say.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <h3>User Reviews</h3>
+            <div class="review-grid">
+                <div class="review-card">
+                    <blockquote>"Great local pizza!"</blockquote>
+                    <p>John Doe</p>
+                </div>
+                <div class="review-card">
+                    <blockquote>"Loved the ambiance!"</blockquote>
+                    <p>Jane Smith</p>
+                </div>
+                <div class="review-card">
+                    <blockquote>"Amazing service at El Cafe!"</blockquote>
+                    <p>Alex Johnson</p>
+                </div>
+                <div class="review-card">
+                    <blockquote>"Fantastic food!"</blockquote>
+                    <p>Chris Lee</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 LocalBuzz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
